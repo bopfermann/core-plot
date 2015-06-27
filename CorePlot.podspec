@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.requires_arc   = true
   s.xcconfig = { 'ALWAYS_SEARCH_USER_PATHS' => 'YES' }
   
-  s.frameworks     = 'QuartzCore', 'Accelerate'
+  s.frameworks     = 'QuartzCore', 'Accelerate', 'CoreGraphics'
   s.ios.frameworks = 'UIKit', 'Foundation'
   s.osx.frameworks = 'Cocoa'
 end
